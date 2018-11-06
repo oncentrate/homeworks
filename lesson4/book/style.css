@@ -1,0 +1,19 @@
+
+.block-left{
+	width:50%;height:800px;overflow:auto;float:left;
+	
+}
+
+.block-right{
+	width:50%;height:800px;overflow:auto;	
+	list-style-position: inside
+
+}
+
+.page{
+	text-align: center;
+}
+
+.title{
+	text-align: center;
+}
