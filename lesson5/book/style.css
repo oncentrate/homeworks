@@ -1,0 +1,85 @@
+body{
+	background-color: #F2DAD9;
+	color: #44475A;
+}
+
+.block-left{
+	width:50%;height:800px;overflow:auto;float:left;
+	
+}
+
+.block-right{
+	width:50%;height:800px;overflow:auto;	
+	list-style-position: inside
+
+}
+
+.page{
+	text-align: center;
+}
+
+.title{
+	text-align: center;
+}
+
+#Chapter_1{
+	text-align: center;
+	color: #6D4237;
+
+}
+
+#Chapter_2{
+	text-align: center;
+	color: #6D4237;
+}
+
+#Chapter_3{
+	text-align: center;
+	color: #6D4237;
+}
+
+#Chapter_4{
+	text-align: center;
+	color: #6D4237;
+}
+
+#Chapter_5{
+	text-align: center;
+	color: #6D4237;
+}
+
+h2{
+	text-align: center;
+	border: 5px inset #A48989;
+}
+
+#Start{
+	text-decoration: underline;
+}
+
+#Note_1{
+	font-weight: bold;
+	color:#6D0D0D;
+
+}
+
+#Note_2{
+	font-weight: bold;
+	color:#6D0D0D;
+}
+
+#Note_3{
+	font-weight: bold;
+	color:#6D0D0D;
+}
+
+#Note_4{
+	font-weight: bold;
+	color:#6D0D0D;
+}
+
+#Note_5{
+	font-weight: bold;
+	color:#6D0D0D;
+}
+

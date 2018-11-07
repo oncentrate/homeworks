@@ -1,0 +1,38 @@
+body{
+
+	background-image: url(https://png.pngtree.com/element_origin_min_pic/16/07/16/18578a07caeb0b3.jpg);
+	background-position-x: 50%;
+	background-repeat: no-repeat;
+	font-family: 
+
+}
+
+ul{
+	list-style-image: url(C:/Users/Samoy/Downloads/next.png);
+}
+.none{
+	text-decoration: underline;
+}
+
+.main{
+	margin-left: 40%;
+	margin-top: 5%;
+	font-family: Georgia;
+}
+
+#education{
+	text-shadow: 4px 5px 3px gray;
+}
+
+#exp{
+	text-shadow: 4px 5px 3px gray;
+}
+
+#hobby{
+	text-shadow: 4px 5px 3px gray;
+}
+
+#line{
+	text-decoration-line: underline;
+}
+
