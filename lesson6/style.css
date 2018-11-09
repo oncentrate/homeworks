@@ -1,0 +1,52 @@
+
+
+#big-block{
+display:flex;
+justify-content:center;
+align-items:center;
+color: #393939;
+font-family: "Arial - Bold MT";
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+text-align: center;
+}
+
+#middle-block{
+display:flex;
+justify-content:center;
+align-items:center;
+color: #393939;
+font-family: "Arial - Bold MT";
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+text-align: center;
+}
+.small-block{
+float: left;
+height: 168px;
+width: 168px;
+margin: 60px 100px 60px 100px;
+background-color: #999; /* если надо для каждого блока свой цвет, то пропиши для каждого класс с сответстующим цветом */
+}
+
+#title{
+
+color: #393939;
+font-family: "Arial - Bold MT";
+font-size: 30px;
+font-weight: 400;
+line-height: 36px;
+padding-top: 0px;
+height: 64px;
+width: 319px;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.advantages{
+	color: #fd58b2;
+}
+
