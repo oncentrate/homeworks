@@ -7,3 +7,14 @@ body {
 	font-size: 24px;
 	text-align: center;
 }
+
+.text{
+	font-family: Tahoma;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.features_img{
+	max-height: 71px;
+	margin-bottom: 20px;
+}
