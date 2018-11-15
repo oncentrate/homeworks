@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../sass/main.css",
+	"sources": [
+		"../sass/main.sass"
+	],
+	"sourcesContent": [
+		"\n.header {\n\tcolor: #000000;\n\tfont-family: Arial;\n\ttext-align: center;\n\tmargin-bottom: 125px;\n\t&_title {\n\t font-size: 36px;\n\t font-weight: 400; } }\n\n.block {\n\tdisplay: flex;\n\theight: 366px;\n\tjustify-content: space-around;\n\talign-items: center;\n\tfont-family: Arial; }\n\n\n.element {\n\n &-text {\n  text-align: center;\n  font-size: 16px; }\n\tfont-weight: 300;\n\n\t.price {\n\t padding-top: 25px;\n\t font-size: 18px {\n   font-weight: 700; } }\n\n\n\n\t.border {\n\t margin-top: 25px;\n\t font-size: 13px;\n\t font-weight: 700;\n\t width: 200px;\n\t height: 55px;\n\t color: #23bac1;\n\t background-color: #f9f9f9;\n\t border: 1px solid #23bac1; } }\n\n\n\n\n\n\n"
+	],
+	"mappings": ";AACA,AAAA,OAAO,CAAC;EACP,KAAK,EAAE,OAAQ;EACf,WAAW,EAAE,KAAM;EACnB,UAAU,EAAE,MAAO;EACnB,aAAa,EAAE,KAAM;CAGE;;;AAPxB,AAAA,aAAO,CAKE;EACP,SAAS,EAAE,IAAK;EAChB,WAAW,EAAE,GAAI;CAAG;;;AAEtB,AAAA,MAAM,CAAC;EACN,OAAO,EAAE,IAAK;EACd,MAAM,EAAE,KAAM;EACd,eAAe,EAAE,YAAa;EAC9B,WAAW,EAAE,MAAO;EACpB,WAAW,EAAE,KAAM;CAAG;;;AAGvB,AAAA,QAAQ,CAAC;EAKR,WAAW,EAAE,GAAI;CAiBe;;;AAtBjC,AAAA,aAAQ,CAEA;EACN,UAAU,EAAE,MAAO;EACnB,SAAS,EAAE,IAAK;CAAG;;;AAJrB,AAOC,QAPO,CAOP,MAAM,CAAC;EACN,WAAW,EAAE,IAAK;EAClB,SAAS,EAAE,IAAI;EAAf,SAAS,AACW,CAAC,AAApB,WAAW,EAAE,GAAI;CAAK;;;AAVzB,AAcC,QAdO,CAcP,OAAO,CAAC;EACP,UAAU,EAAE,IAAK;EACjB,SAAS,EAAE,IAAK;EAChB,WAAW,EAAE,GAAI;EACjB,KAAK,EAAE,KAAM;EACb,MAAM,EAAE,IAAK;EACb,KAAK,EAAE,OAAQ;EACf,gBAAgB,EAAE,OAAQ;EAC1B,MAAM,EAAE,iBAAkB;CAAG",
+	"names": []
+}

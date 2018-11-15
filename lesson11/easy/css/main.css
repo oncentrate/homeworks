@@ -1,0 +1,54 @@
+/* line 2, C:/Users/Samoy/Desktop/WEB-start/homeworks/lesson11/easy/sass/main.sass */
+.header {
+  color: #000000;
+  font-family: Arial;
+  text-align: center;
+  margin-bottom: 125px;
+}
+
+/* line 7, C:/Users/Samoy/Desktop/WEB-start/homeworks/lesson11/easy/sass/main.sass */
+.header_title {
+  font-size: 36px;
+  font-weight: 400;
+}
+
+/* line 11, C:/Users/Samoy/Desktop/WEB-start/homeworks/lesson11/easy/sass/main.sass */
+.block {
+  display: flex;
+  height: 366px;
+  justify-content: space-around;
+  align-items: center;
+  font-family: Arial;
+}
+
+/* line 19, C:/Users/Samoy/Desktop/WEB-start/homeworks/lesson11/easy/sass/main.sass */
+.element {
+  font-weight: 300;
+}
+
+/* line 21, C:/Users/Samoy/Desktop/WEB-start/homeworks/lesson11/easy/sass/main.sass */
+.element-text {
+  text-align: center;
+  font-size: 16px;
+}
+
+/* line 26, C:/Users/Samoy/Desktop/WEB-start/homeworks/lesson11/easy/sass/main.sass */
+.element .price {
+  padding-top: 25px;
+  font-size: 18px;
+  font-size-font-weight: 700;
+}
+
+/* line 33, C:/Users/Samoy/Desktop/WEB-start/homeworks/lesson11/easy/sass/main.sass */
+.element .border {
+  margin-top: 25px;
+  font-size: 13px;
+  font-weight: 700;
+  width: 200px;
+  height: 55px;
+  color: #23bac1;
+  background-color: #f9f9f9;
+  border: 1px solid #23bac1;
+}
+
+/*# sourceMappingURL=../css/main.map */

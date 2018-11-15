@@ -1,0 +1,132 @@
+/* line 1, C:/Users/Samoy/Desktop/WEB-start/homeworks/lesson11/hard/sass/style.sass */
+.container {
+  display: -webkit-flex;
+  -webkit-justify-content: flex-start;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 96px;
+}
+
+/* line 10, C:/Users/Samoy/Desktop/WEB-start/homeworks/lesson11/hard/sass/style.sass */
+.container-text {
+  margin-left: 77px;
+  max-width: 526px;
+  font-family: Tahoma;
+  font-weight: 400;
+}
+
+/* line 15, C:/Users/Samoy/Desktop/WEB-start/homeworks/lesson11/hard/sass/style.sass */
+.container-text-title_1 {
+  font-size: 48px;
+  font-weight: 700;
+  padding-bottom: 15px;
+}
+
+/* line 19, C:/Users/Samoy/Desktop/WEB-start/homeworks/lesson11/hard/sass/style.sass */
+.container-text-title_2 {
+  font-size: 30px;
+  font-weight: 400;
+  padding-bottom: 35px;
+}
+
+/* line 23, C:/Users/Samoy/Desktop/WEB-start/homeworks/lesson11/hard/sass/style.sass */
+.container-text-socr {
+  font-size: 18px;
+  font-weight: 400;
+  padding-bottom: 47px;
+}
+
+/* line 27, C:/Users/Samoy/Desktop/WEB-start/homeworks/lesson11/hard/sass/style.sass */
+.container-text-price {
+  margin-bottom: 53px;
+  font-size: 48px;
+}
+
+/* line 32, C:/Users/Samoy/Desktop/WEB-start/homeworks/lesson11/hard/sass/style.sass */
+.container-text-button {
+  font-size: 24px;
+  font-weight: 700;
+  width: 175px;
+  height: 67px;
+  color: #ffffff;
+  border-radius: 5px;
+  background-color: #f05a22;
+}
+
+/* line 41, C:/Users/Samoy/Desktop/WEB-start/homeworks/lesson11/hard/sass/style.sass */
+.container-text-button-o {
+  color: #f05a22;
+  font-family: Tahoma;
+  font-size: 24px;
+  font-weight: 700;
+  border-radius: 5px;
+  border-radius-border: 2px solid #f05a22;
+  border-radius-border-width: 287px;
+  height: 67px;
+  background-color: #fff;
+}
+
+/* line 52, C:/Users/Samoy/Desktop/WEB-start/homeworks/lesson11/hard/sass/style.sass */
+.footer_main {
+  font-family: Tahoma;
+  background-color: #f2f2f2;
+}
+
+/* line 57, C:/Users/Samoy/Desktop/WEB-start/homeworks/lesson11/hard/sass/style.sass */
+.footer_main h1 {
+  padding-top: 89px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  padding-bottom: 91px;
+}
+
+/* line 65, C:/Users/Samoy/Desktop/WEB-start/homeworks/lesson11/hard/sass/style.sass */
+.footer_main-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 211px;
+}
+
+/* line 72, C:/Users/Samoy/Desktop/WEB-start/homeworks/lesson11/hard/sass/style.sass */
+.footer_main-footer-block {
+  padding-right: 240px;
+  padding-bottom: 20px;
+}
+
+/* line 76, C:/Users/Samoy/Desktop/WEB-start/homeworks/lesson11/hard/sass/style.sass */
+.footer_text {
+  color: #333333;
+  font-size: 18px;
+  font-weight: 400;
+  padding-right: 87px;
+  display: flex;
+}
+
+/* line 84, C:/Users/Samoy/Desktop/WEB-start/homeworks/lesson11/hard/sass/style.sass */
+.footer_text-text_1 {
+  margin-left: 78px;
+  text-align: center;
+}
+
+/* line 87, C:/Users/Samoy/Desktop/WEB-start/homeworks/lesson11/hard/sass/style.sass */
+.footer_text-text_2 {
+  margin-left: 86px;
+  text-align: center;
+}
+
+/* line 90, C:/Users/Samoy/Desktop/WEB-start/homeworks/lesson11/hard/sass/style.sass */
+.footer_text-text_3 {
+  margin-left: 91px;
+  text-align: center;
+}
+
+/* line 93, C:/Users/Samoy/Desktop/WEB-start/homeworks/lesson11/hard/sass/style.sass */
+.footer_text-text_4 {
+  margin-left: 100px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=../css/style.map */
