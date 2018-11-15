@@ -90,43 +90,25 @@
   padding-left: 211px;
 }
 
-/* line 72, C:/Users/Samoy/Desktop/WEB-start/homeworks/lesson11/hard/sass/style.sass */
+/* line 73, C:/Users/Samoy/Desktop/WEB-start/homeworks/lesson11/hard/sass/style.sass */
 .footer_main-footer-block {
   padding-right: 240px;
   padding-bottom: 20px;
 }
 
-/* line 76, C:/Users/Samoy/Desktop/WEB-start/homeworks/lesson11/hard/sass/style.sass */
+/* line 80, C:/Users/Samoy/Desktop/WEB-start/homeworks/lesson11/hard/sass/style.sass */
 .footer_text {
-  color: #333333;
-  font-size: 18px;
-  font-weight: 400;
-  padding-right: 87px;
   display: flex;
-}
-
-/* line 84, C:/Users/Samoy/Desktop/WEB-start/homeworks/lesson11/hard/sass/style.sass */
-.footer_text-text_1 {
-  margin-left: 78px;
-  text-align: center;
+  justify-content: center;
 }
 
 /* line 87, C:/Users/Samoy/Desktop/WEB-start/homeworks/lesson11/hard/sass/style.sass */
-.footer_text-text_2 {
-  margin-left: 86px;
-  text-align: center;
-}
-
-/* line 90, C:/Users/Samoy/Desktop/WEB-start/homeworks/lesson11/hard/sass/style.sass */
-.footer_text-text_3 {
-  margin-left: 91px;
-  text-align: center;
-}
-
-/* line 93, C:/Users/Samoy/Desktop/WEB-start/homeworks/lesson11/hard/sass/style.sass */
-.footer_text-text_4 {
-  margin-left: 100px;
-  text-align: center;
+.footer_text-text {
+  align-items: center;
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: 10px;
+  margin-right: 90px;
 }
 
 /*# sourceMappingURL=../css/style.map */
