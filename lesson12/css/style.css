@@ -1,0 +1,104 @@
+/* line 1, C:/Users/Samoy/Desktop/WEB-start/homeworks/lesson12/sass/style.sass */
+.section {
+  background-color: #f3f3f3;
+  display: flex;
+  justify-content: center;
+}
+
+/* line 5, C:/Users/Samoy/Desktop/WEB-start/homeworks/lesson12/sass/style.sass */
+.section__header {
+  text-align: center;
+  margin-bottom: 46px;
+}
+
+/* line 8, C:/Users/Samoy/Desktop/WEB-start/homeworks/lesson12/sass/style.sass */
+.section__header-first {
+  font-size: 30px;
+  font-weight: 400;
+  color: #3a3a3a;
+  padding-bottom: 9px;
+}
+
+/* line 13, C:/Users/Samoy/Desktop/WEB-start/homeworks/lesson12/sass/style.sass */
+.section__header-second {
+  font-size: 19px;
+  font-weight: 300;
+  color: #3f3f3f;
+}
+
+/* line 20, C:/Users/Samoy/Desktop/WEB-start/homeworks/lesson12/sass/style.sass */
+.section__block {
+  background-color: #ffffff;
+}
+
+/* line 22, C:/Users/Samoy/Desktop/WEB-start/homeworks/lesson12/sass/style.sass */
+.section__block-header {
+  background-color: #25333c;
+  padding-top: 16px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 23px;
+  color: #ffffff;
+  text-transform: uppercase;
+  height: 61px;
+  margin-bottom: 6px;
+}
+
+/* line 32, C:/Users/Samoy/Desktop/WEB-start/homeworks/lesson12/sass/style.sass */
+.section__block-img {
+  margin-bottom: 3px;
+}
+
+/* line 34, C:/Users/Samoy/Desktop/WEB-start/homeworks/lesson12/sass/style.sass */
+.section__block-descr {
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-family: "Open Sans - Semibold";
+  color: #3a3a3a;
+  line-height: 23px;
+}
+
+/* line 41, C:/Users/Samoy/Desktop/WEB-start/homeworks/lesson12/sass/style.sass */
+.section__block-price {
+  color: #e93b3b;
+  font-size: 28px;
+  font-family: "Open Sans - Semibold";
+  line-height: 30px;
+  margin-bottom: 17px;
+}
+
+/* line 47, C:/Users/Samoy/Desktop/WEB-start/homeworks/lesson12/sass/style.sass */
+.section__block input {
+  min-width: 281px;
+  min-height: 51px;
+  padding-left: 20px;
+  margin-bottom: 17px;
+}
+
+/* line 52, C:/Users/Samoy/Desktop/WEB-start/homeworks/lesson12/sass/style.sass */
+.section__block-call {
+  color: #616467;
+  font-family: "Open Sans";
+  font-size: 13px;
+  font-weight: 300;
+  text-align: center;
+  padding-bottom: 22px;
+  margin-bottom: 50px;
+}
+
+/* line 62, C:/Users/Samoy/Desktop/WEB-start/homeworks/lesson12/sass/style.sass */
+.btn {
+  background-color: #e93b3b;
+  width: 207px;
+  height: 54px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 51px;
+  text-transform: uppercase;
+  outline: 0;
+  margin-bottom: 15px;
+}
+
+/*# sourceMappingURL=../css/style.map */
