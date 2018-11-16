@@ -52,7 +52,15 @@
   color: #ffffff;
   border-radius: 5px;
   background-color: #f05a22;
+  border: none;
+  margin-right: 40px;
+ 
 }
+.container-text-button:active{
+  box-shadow: none;
+  border: none;
+}
+
 
 /* line 41, C:/Users/Samoy/Desktop/WEB-start/homeworks/lesson11/hard/sass/style.sass */
 .container-text-button-o {
@@ -61,10 +69,11 @@
   font-size: 24px;
   font-weight: 700;
   border-radius: 5px;
-  border-radius-border: 2px solid #f05a22;
-  border-radius-border-width: 287px;
+  border: 2px solid #f05a22;
   height: 67px;
   background-color: #fff;
+  outline:none;
+  
 }
 
 /* line 52, C:/Users/Samoy/Desktop/WEB-start/homeworks/lesson11/hard/sass/style.sass */
