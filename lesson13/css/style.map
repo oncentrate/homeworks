@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../sass/style.css",
+	"sources": [
+		"../sass/style.sass"
+	],
+	"sourcesContent": [
+		"* {\n padding: 0;\n margin: 0; }\n\n.grid {\n display: grid;\n // grid-template-areas: 'header header header'\n // \t\t\t\t\t\t\t\t\t\t\t'nav main aside'\n } // \t\t\t\t\t\t\t\t\t\t\t'footer footer footer'\n\n\n.header {\n grid-area: header; }\n\n.nav {\n grid-area: nav; }\n\n.main {\n grid-area: main; }\n\n.aside {\n grid-area: aside; }\n\n.footer {\n grid-area: footer; }\n\n"
+	],
+	"mappings": ";AAAA,AAAA,CAAC,CAAC;EACD,OAAO,EAAE,CAAE;EACX,MAAM,EAAE,CAAE;CAAG;;;AAEd,AAAA,KAAK,CAAC;EACL,OAAO,EAAE,IAAK;CAGb;;;AAGF,AAAA,OAAO,CAAC;EACP,SAAS,EAAE,MAAO;CAAG;;;AAEtB,AAAA,IAAI,CAAC;EACJ,SAAS,EAAE,GAAI;CAAG;;;AAEnB,AAAA,KAAK,CAAC;EACL,SAAS,EAAE,IAAK;CAAG;;;AAEpB,AAAA,MAAM,CAAC;EACN,SAAS,EAAE,KAAM;CAAG;;;AAErB,AAAA,OAAO,CAAC;EACP,SAAS,EAAE,MAAO;CAAG",
+	"names": []
+}
