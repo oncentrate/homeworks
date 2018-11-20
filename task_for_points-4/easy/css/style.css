@@ -1,0 +1,64 @@
+/* line 1, C:/Users/Samoy/Desktop/WEB-start/homeworks/task_for_points-4/easy/sass/style.sass */
+body {
+  background-color: #f6f6f6; /*Цвет не меняется, не могу понять почему...*/
+}
+
+/* line 3, C:/Users/Samoy/Desktop/WEB-start/homeworks/task_for_points-4/easy/sass/style.sass */
+.header {
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #666666;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  margin-top: 279px;
+}
+
+/* line 13, C:/Users/Samoy/Desktop/WEB-start/homeworks/task_for_points-4/easy/sass/style.sass */
+.section {
+  text-align: center;
+}
+
+/* line 15, C:/Users/Samoy/Desktop/WEB-start/homeworks/task_for_points-4/easy/sass/style.sass */
+.section__pictures {
+  margin-top: 75px;
+  padding-right: 7px;
+}
+
+/* line 19, C:/Users/Samoy/Desktop/WEB-start/homeworks/task_for_points-4/easy/sass/style.sass */
+.section-text {
+  color: #666666;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 29px;
+}
+
+/* line 27, C:/Users/Samoy/Desktop/WEB-start/homeworks/task_for_points-4/easy/sass/style.sass */
+.section__button-o {
+  color: #66cc66;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 25px;
+  text-transform: uppercase;
+  border: 2px solid #66cc66;
+  background-color: white; /*Поэтому тут стоит именно белый цвет фона, а не  #f6f6f6*/
+  width: 133px;
+  height: 41px;
+}
+
+/* line 37, C:/Users/Samoy/Desktop/WEB-start/homeworks/task_for_points-4/easy/sass/style.sass */
+.section__button {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 25px;
+  text-transform: uppercase;
+  background-color: #66cc66;
+  width: 133px;
+  height: 41px;
+}
+
+/*# sourceMappingURL=../css/style.map */

@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../sass/style.css",
+	"sources": [
+		"../sass/style.sass"
+	],
+	"sourcesContent": [
+		"body {\n background-color: #f6f6f6; }\n.header {\n line-height: 25px;\n text-transform: uppercase;\n color: #666666;\n text-align: center;\n &__title {}\n font-size: 35px;\n font-weight: 700;\n margin-top: 279px; }\n\n.section {\n text-align: center;\n &__pictures {\n  margin-top: 75px;\n  padding-right: 7px; }\n\n &-text {\n  color: #666666;\n  font-size: 20px;\n  font-weight: 500;\n  line-height: 22px;\n  text-transform: uppercase;\n  margin-top: 30px;\n  margin-bottom: 29px; }\n &__button-o {\n  color: #66cc66;\n  font-size: 14px;\n  font-weight: 700;\n  line-height: 25px;\n  text-transform: uppercase;\n  border: 2px solid #66cc66;\n  background-color: #f6f6f6;\n  width: 133px;\n  height: 41px; }\n &__button {\n  color: #ffffff;\n  font-size: 14px;\n  font-weight: 700;\n  line-height: 25px;\n  text-transform: uppercase;\n  background-color: #66cc66;\n  width: 133px;\n  height: 41px; } }\n\n\n\n\n"
+	],
+	"mappings": ";AAAA,AAAA,IAAI,CAAC;EACJ,gBAAgB,EAAE,OAAQ;CAAG;;;AAC9B,AAAA,OAAO,CAAC;EACP,WAAW,EAAE,IAAK;EAClB,cAAc,EAAE,SAAU;EAC1B,KAAK,EAAE,OAAQ;EACf,UAAU,EAAE,MAAO;EAEnB,SAAS,EAAE,IAAK;EAChB,WAAW,EAAE,GAAI;EACjB,UAAU,EAAE,KAAM;CAAG;;;AAEtB,AAAA,QAAQ,CAAC;EACR,UAAU,EAAE,MAAO;CA+BA;;;AAhCpB,AAAA,kBAAQ,CAEK;EACX,UAAU,EAAE,IAAK;EACjB,aAAa,EAAE,GAAI;CAAG;;;AAJxB,AAAA,aAAQ,CAMA;EACN,KAAK,EAAE,OAAQ;EACf,SAAS,EAAE,IAAK;EAChB,WAAW,EAAE,GAAI;EACjB,WAAW,EAAE,IAAK;EAClB,cAAc,EAAE,SAAU;EAC1B,UAAU,EAAE,IAAK;EACjB,aAAa,EAAE,IAAK;CAAG;;;AAbzB,AAAA,kBAAQ,CAcK;EACX,KAAK,EAAE,OAAQ;EACf,SAAS,EAAE,IAAK;EAChB,WAAW,EAAE,GAAI;EACjB,WAAW,EAAE,IAAK;EAClB,cAAc,EAAE,SAAU;EAC1B,MAAM,EAAE,iBAAkB;EAC1B,gBAAgB,EAAE,OAAQ;EAC1B,KAAK,EAAE,KAAM;EACb,MAAM,EAAE,IAAK;CAAG;;;AAvBlB,AAAA,gBAAQ,CAwBG;EACT,KAAK,EAAE,OAAQ;EACf,SAAS,EAAE,IAAK;EAChB,WAAW,EAAE,GAAI;EACjB,WAAW,EAAE,IAAK;EAClB,cAAc,EAAE,SAAU;EAC1B,gBAAgB,EAAE,OAAQ;EAC1B,KAAK,EAAE,KAAM;EACb,MAAM,EAAE,IAAK;CAAG",
+	"names": []
+}
