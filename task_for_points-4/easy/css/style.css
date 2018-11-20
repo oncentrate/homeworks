@@ -59,6 +59,8 @@ body {
   background-color: #66cc66;
   width: 133px;
   height: 41px;
+  box-shadow: none;
+  border: none;
 }
 
 /*# sourceMappingURL=../css/style.map */
