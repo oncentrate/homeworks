@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../sass/style.css",
+	"sources": [
+		"../sass/style.sass"
+	],
+	"sourcesContent": [
+		"body {\n background-color: #ebf4f4; }\n.container {}\n\n.form {\n  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);\n  border: 1px solid #cfdede;\n  background-color: #ffffff;\n  width: 317px;\n  height: 331px;\n  margin: auto;\n  margin-top: 10%;\n  &__title {\n   font-family: \"Arial - Bold MT\"; }\n\t font-size: 12px;\n\t font-weight: 400;\n\t line-height: 12px;\n\t text-transform: uppercase;\n\t letter-spacing: -0.12px;\n\t display: block;\n\t background-color: #01b3b3; }\n\n\n\n"
+	],
+	"mappings": ";AAAA,AAAA,IAAI,CAAC;EACJ,gBAAgB,EAAE,OAAQ;CAAG;;;AAG9B,AAAA,KAAK,CAAC;EACJ,UAAU,EAAE,CAAC,CAAC,GAAG,CAAC,GAAG,CAAC,mBAAI;EAC1B,MAAM,EAAE,iBAAkB;EAC1B,gBAAgB,EAAE,OAAQ;EAC1B,KAAK,EAAE,KAAM;EACb,MAAM,EAAE,KAAM;EACd,MAAM,EAAE,IAAK;EACb,UAAU,EAAE,GAAI;EAGhB,SAAS,EAAE,IAAK;EAChB,WAAW,EAAE,GAAI;EACjB,WAAW,EAAE,IAAK;EAClB,cAAc,EAAE,SAAU;EAC1B,cAAc,EAAE,OAAQ;EACxB,OAAO,EAAE,KAAM;EACf,gBAAgB,EAAE,OAAQ;CAAG;;;AAhB/B,AAAA,YAAK,CAQM;EACR,WAAW,EAAE,iBAAkB;CAAG",
+	"names": []
+}

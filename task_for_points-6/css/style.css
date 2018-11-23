@@ -1,0 +1,116 @@
+@font-face {
+font-family: 'Arial Bold';
+src: url('../fonts/Arial-BoldMT.eot');
+src: url('../fonts/Arial-BoldMT.eot?#iefix') format('embedded-opentype'),
+url('../fonts/Arial-BoldMT.woff') format('woff'),
+url('../fonts/Arial-BoldMT.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+/* line 1, C:/Users/Samoy/Desktop/WEB-start/homeworks/task_for_points-6/sass/style.sass */
+body {
+  background-color: #ebf4f4;
+}
+
+button{
+	margin-bottom:  30px;
+}
+
+/* line 5, C:/Users/Samoy/Desktop/WEB-start/homeworks/task_for_points-6/sass/style.sass */
+.form {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
+  border: 1px solid #cfdede;
+  background-color: #ffffff;
+  width: 319px;
+  min-height: 368px;
+  margin: 15%;
+}
+
+/* line 13, C:/Users/Samoy/Desktop/WEB-start/homeworks/task_for_points-6/sass/style.sass */
+.form__title {
+  font-family: 'Arial Bold', sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  color: #ffffff;
+	letter-spacing: -0.12px;
+	background-color: #01b3b3;
+	width: 149px;
+  height: 18px;
+  padding-top: 7px;
+  text-align: center;
+  /*padding-left: 10px;*/
+  margin-left: 30px;
+  margin-bottom: 34px;
+  margin-top: -5px;
+}
+
+.form-tag{
+ color: #333333;
+ font-family: 'Arial Bold', sans-serif;
+ font-size: 12px;
+ font-weight: 400;
+ margin-left: 30px;
+ margin-top: -2px;
+}
+
+.form-over{
+ color: #01b3b3;
+ line-height: 13px;
+ padding-left: 2px;
+}
+
+#form-email{
+	margin-left: 30px;
+	margin-bottom: 20px;
+  margin-top: -5px;
+	width: 250px;
+	height: 26px;
+	padding-left: 10px;
+	background-color: #ebf4f4;
+	outline:none;
+	font-size: 12px;
+	border: 1px solid #cfdede;
+	font-style: italic;
+  line-height: 12px;
+
+
+}
+
+#form-password{
+	margin-left: 30px;
+	margin-bottom: 21px;
+	margin-top: -7px;
+	width: 250px;
+	height: 26px;
+	padding-left: 10px;
+	background-color: #ebf4f4;
+	outline:none;
+	border: 1px solid #cfdede;
+
+}
+
+.form__button{
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+	color: #ffffff;
+	font-family: "Arial Bold";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 43px;
+	text-transform: uppercase;
+	width: 260px;
+  height: 45px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2), inset 0 1px 2px #ffffff;
+  border: 1px solid #dcdcdc;
+  background-color: #01b3b3;
+  border-radius: 5px;
+  box-shadow:none;
+  outline:none;
+  margin-left: 30px;
+  margin-top: 13px;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.24) 0%, rgba(255, 255, 255, 0.24) 100%);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2), inset 0 1px 2px #ffffff;
+}
+
+
+/*# sourceMappingURL=../css/style.map */
