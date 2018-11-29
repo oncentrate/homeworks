@@ -1,0 +1,133 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	margin: 30px;
+	font: 13px/1.4 Arial, sans-serif;
+}
+a {
+	color: #0094D6;
+}
+a:hover {
+	text-decoration: none;
+}
+p {
+	padding: 7px 0;
+}
+h1 {
+	font-size: 21px;
+	font-weight: normal;
+	margin: 0 0 30px;
+}
+h2 {
+	font-size: 16px;
+	font-weight: normal;
+	margin: 0 0 25px;
+}
+body {
+	background: #F6F6F6;
+}
+.text {
+	max-width: 700px;
+	margin: 0 0 30px;
+	background: #FFF;
+	border: 2px solid #7DCA86;
+	border-radius: 5px;
+	padding: 7px 15px;
+	box-sizing: border-box;
+}
+
+.tabs {
+	padding-top: 30px;
+	margin-left: 50px;
+}
+.tabs__caption {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	list-style: none;
+	position: relative;
+	margin: -1px 0 0 -1px;
+}
+.tabs__caption li:last-child:before {
+	content: '';
+	position: absolute;
+	bottom: -5px;
+	left: 0;
+	right: -2px;
+	z-index: -1;
+	height: 5px;
+	background: #7DCA86;
+}
+.tabs__caption:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+.tabs__caption li {
+	padding: 9px 15px;
+	margin: 1px 0 0 1px;
+	background: #6c8ba4;
+	color: #FFF;
+	position: relative;
+/*	border: solid #61AF6A;
+	border-width: 2px 2px 0;
+	border-radius: 5px 5px 0 0;*/
+	text-align: center;
+	margin-right: 12px;
+}
+.tabs__caption li:not(.active) {
+	cursor: pointer;
+	background: #fff;
+	color:#9bb0c1;
+}
+.tabs__caption li:not(.active):hover {
+	background: #6c8ba4;
+	border-color: #6c8ba4;
+}
+.tabs__caption .active {
+	background: #6c8ba4;
+	color: #fff;
+	border-color: #7DCA86;
+}
+.tabs__caption .active:after {
+	content: '';
+	position: absolute;
+	bottom: -5px;
+	left: 0;
+	right: 0;
+	height: 5px;
+
+}
+.tabs__content {
+	display: none;
+	background: #ebebeb;
+	padding: 7px 15px;
+}
+.tabs__content.active {
+	display: block;
+}
+
+@font-face {
+font-family: 'Archive';
+src: url('../jq/fonts/Archive.eot');
+src: url('../jq/fonts/Archive.eot?#iefix') format('embedded-opentype'),
+url('../jq/fonts/Archive.woff') format('woff'),
+url('../jq/fonts/Archive.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Roboto';
+src: url('../jq/fonts/Roboto-Light.eot');
+src: url('../jq/fonts/Roboto-Light.eot?#iefix') format('embedded-opentype'),
+url('../jq/fonts/Roboto-Light.woff') format('woff'),
+url('../jq/fonts/Roboto-Light.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}

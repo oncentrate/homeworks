@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link href="style.css" rel="stylesheet" />
+	<link rel="stylesheet" href="table.css">
+</head>
+
+<body>
+	<div class="main">
+<div class="tabs">
+
+	<ul class="tabs__caption">
+		<li class="active">Вопросы</li>
+		<li>Жалоба</li>
+		<li>Регистрация</li>
+	</ul>
+
+	<div class="tabs__content  active">
+		<form action="#">
+			<label for="name" class="inputs">ИМЯ</label><br>
+			<input id="name" type="text"><br>
+
+			
+			<label for="#" class="inputs">EMAIL</label><br>
+			<input type="email"><br>
+
+			<label for="#" class="inputs">ТЕМА СООБЩЕНИЯ</label><br>
+			<input type="text"><br>
+
+			<div class="area">СООБЩЕНИЕ</div><br>
+			<textarea class="textarea" cols="30" rows="10"></textarea><br>
+
+
+			<button class="button">ОТПРАВИТЬ СООБЩЕНИЕ</button>
+	  </form>
+	</div>
+
+	<div class="tabs__content">
+			пусто
+	</div>
+
+	<div class="tabs__content">
+			у меня дедлайн
+	</div>
+
+</div><!-- .tabs -->
+</div>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="../jq/js/tabs.js"></script>
+</body>
+</html>
