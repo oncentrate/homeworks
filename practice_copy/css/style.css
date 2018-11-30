@@ -1,0 +1,1889 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+/* line 11, C:/Users/Samoy/Desktop/practice123/sass/_normalize.scss */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+/* line 23, C:/Users/Samoy/Desktop/practice123/sass/_normalize.scss */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+/* line 31, C:/Users/Samoy/Desktop/practice123/sass/_normalize.scss */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+/* line 40, C:/Users/Samoy/Desktop/practice123/sass/_normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+/* line 53, C:/Users/Samoy/Desktop/practice123/sass/_normalize.scss */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 64, C:/Users/Samoy/Desktop/practice123/sass/_normalize.scss */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+/* line 76, C:/Users/Samoy/Desktop/practice123/sass/_normalize.scss */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+/* line 85, C:/Users/Samoy/Desktop/practice123/sass/_normalize.scss */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+/* line 95, C:/Users/Samoy/Desktop/practice123/sass/_normalize.scss */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 105, C:/Users/Samoy/Desktop/practice123/sass/_normalize.scss */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+/* line 116, C:/Users/Samoy/Desktop/practice123/sass/_normalize.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+/* line 125, C:/Users/Samoy/Desktop/practice123/sass/_normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 133, C:/Users/Samoy/Desktop/practice123/sass/_normalize.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 137, C:/Users/Samoy/Desktop/practice123/sass/_normalize.scss */
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+/* line 148, C:/Users/Samoy/Desktop/practice123/sass/_normalize.scss */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+/* line 160, C:/Users/Samoy/Desktop/practice123/sass/_normalize.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+/* line 176, C:/Users/Samoy/Desktop/practice123/sass/_normalize.scss */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+/* line 186, C:/Users/Samoy/Desktop/practice123/sass/_normalize.scss */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+/* line 195, C:/Users/Samoy/Desktop/practice123/sass/_normalize.scss */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+/* line 206, C:/Users/Samoy/Desktop/practice123/sass/_normalize.scss */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+/* line 218, C:/Users/Samoy/Desktop/practice123/sass/_normalize.scss */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+/* line 229, C:/Users/Samoy/Desktop/practice123/sass/_normalize.scss */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+/* line 240, C:/Users/Samoy/Desktop/practice123/sass/_normalize.scss */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+/* line 253, C:/Users/Samoy/Desktop/practice123/sass/_normalize.scss */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+/* line 261, C:/Users/Samoy/Desktop/practice123/sass/_normalize.scss */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+/* line 270, C:/Users/Samoy/Desktop/practice123/sass/_normalize.scss */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+/* line 280, C:/Users/Samoy/Desktop/practice123/sass/_normalize.scss */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+/* line 290, C:/Users/Samoy/Desktop/practice123/sass/_normalize.scss */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+/* line 299, C:/Users/Samoy/Desktop/practice123/sass/_normalize.scss */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+/* line 308, C:/Users/Samoy/Desktop/practice123/sass/_normalize.scss */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+/* line 320, C:/Users/Samoy/Desktop/practice123/sass/_normalize.scss */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+/* line 328, C:/Users/Samoy/Desktop/practice123/sass/_normalize.scss */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+/* line 339, C:/Users/Samoy/Desktop/practice123/sass/_normalize.scss */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+/* line 347, C:/Users/Samoy/Desktop/practice123/sass/_normalize.scss */
+[hidden] {
+  display: none;
+}
+
+@font-face {
+  font-family: 'Museo Sans Light';
+  src: url("../fonts/MuseoSansCyrl/MuseoSansCyrl-300.eot");
+  src: url("../fonts/MuseoSansCyrl/MuseoSansCyrl-300.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansCyrl/MuseoSansCyrl-300.woff") format("woff"), url("../fonts/MuseoSansCyrl/MuseoSansCyrl-300.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Museo Sans Medium';
+  src: url("../fonts/MuseoSansCyrl/MuseoSansCyrl-500.eot");
+  src: url("../fonts/MuseoSansCyrl/MuseoSansCyrl-500.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansCyrl/MuseoSansCyrl-500.woff") format("woff"), url("../fonts/MuseoSansCyrl/MuseoSansCyrl-500.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Museo Sans Bold';
+  src: url("../fonts/MuseoSansCyrl/MuseoSansCyrl-700.eot");
+  src: url("../fonts/MuseoSansCyrl/MuseoSansCyrl-700.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansCyrl/MuseoSansCyrl-700.woff") format("woff"), url("../fonts/MuseoSansCyrl/MuseoSansCyrl-700.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 1, C:/Users/Samoy/Desktop/practice123/sass/_interface.sass */
+.button {
+  padding: 17px 30px;
+  font-size: 13px;
+  font-family: 'Museo Sans Bold', sans-serif;
+  border: none;
+  border-radius: 10px;
+  background-color: #ffd200;
+}
+
+/* line 8, C:/Users/Samoy/Desktop/practice123/sass/_interface.sass */
+.button:hover {
+  background-color: #ffdb33;
+  cursor: pointer;
+}
+
+/* line 11, C:/Users/Samoy/Desktop/practice123/sass/_interface.sass */
+.button:focus {
+  outline: none;
+}
+
+/* line 14, C:/Users/Samoy/Desktop/practice123/sass/_interface.sass */
+.input {
+  font-size: 15px;
+  padding: 25px;
+  border-right: 10px;
+  border: 1px solid #dddddd;
+}
+
+/* line 2, C:/Users/Samoy/Desktop/practice123/sass/_header.sass */
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+}
+
+/* line 7, C:/Users/Samoy/Desktop/practice123/sass/_header.sass */
+.header-text {
+  display: flex;
+  align-items: center;
+}
+
+/* line 10, C:/Users/Samoy/Desktop/practice123/sass/_header.sass */
+.header-text__contacts {
+  text-align: right;
+  margin-right: 30px;
+}
+
+/* line 13, C:/Users/Samoy/Desktop/practice123/sass/_header.sass */
+.header-text__city {
+  display: block;
+  font-size: 13px;
+  margin-bottom: 9px;
+}
+
+/* line 17, C:/Users/Samoy/Desktop/practice123/sass/_header.sass */
+.header-text__phone {
+  display: block;
+  text-decoration: none;
+  color: #333333;
+  font-family: 'Museo Sans Bold', sans-serif;
+  font-size: 20px;
+}
+
+/* line 1, C:/Users/Samoy/Desktop/practice123/sass/_main.sass */
+.main {
+  background-color: #f5f5f5;
+  padding: 60px 0;
+}
+
+/* line 4, C:/Users/Samoy/Desktop/practice123/sass/_main.sass */
+.main-wrap {
+  display: flex;
+  position: relative;
+}
+
+/* line 7, C:/Users/Samoy/Desktop/practice123/sass/_main.sass */
+.main-text {
+  flex-basis: 50%;
+}
+
+/* line 9, C:/Users/Samoy/Desktop/practice123/sass/_main.sass */
+.main-text__title {
+  font-size: 41px;
+  line-height: 55px;
+  margin-top: 20px;
+  font-family: 'Museo Sans Bold', sans-serif;
+  margin-bottom: 50px;
+}
+
+/* line 15, C:/Users/Samoy/Desktop/practice123/sass/_main.sass */
+.main-text__title span {
+  font-size: 20px;
+  display: block;
+  margin-top: 20px;
+}
+
+/* line 19, C:/Users/Samoy/Desktop/practice123/sass/_main.sass */
+.main-image {
+  flex-basis: 50%;
+}
+
+/* line 21, C:/Users/Samoy/Desktop/practice123/sass/_main.sass */
+.main-advantages {
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+}
+
+/* line 25, C:/Users/Samoy/Desktop/practice123/sass/_main.sass */
+.main-advantages__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+/* line 29, C:/Users/Samoy/Desktop/practice123/sass/_main.sass */
+.main-advantages__img {
+  min-width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #ffd200;
+  margin-right: 30px;
+  background-size: 16px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* line 38, C:/Users/Samoy/Desktop/practice123/sass/_main.sass */
+.main-advantages__img-1 {
+  background-image: url(../img/main/clock.png);
+}
+
+/* line 40, C:/Users/Samoy/Desktop/practice123/sass/_main.sass */
+.main-advantages__img-2 {
+  background-image: url(../img/main/calculator.png);
+}
+
+/* line 42, C:/Users/Samoy/Desktop/practice123/sass/_main.sass */
+.main-advantages__img-3 {
+  background-image: url(../img/main/paint-board.png);
+}
+
+/* line 1, C:/Users/Samoy/Desktop/practice123/sass/_feedback.sass */
+.feedback {
+  padding: 94px 0;
+  background: url("../img/feedback/feedback-bg.jpg") no-repeat center left 700px;
+  background-size: contain;
+  position: relative;
+  z-index: 1;
+}
+
+/* line 12, C:/Users/Samoy/Desktop/practice123/sass/_feedback.sass */
+.feedback:before {
+  content: '';
+  left: 0;
+  top: 0;
+  width: 60%;
+  height: 100%;
+  background-color: #fff;
+  position: absolute;
+  z-index: -1;
+}
+
+/* line 25, C:/Users/Samoy/Desktop/practice123/sass/_feedback.sass */
+.form {
+  max-width: 575px;
+}
+
+/* line 27, C:/Users/Samoy/Desktop/practice123/sass/_feedback.sass */
+.form__title {
+  font-size: 24px;
+  font-family: 'Museo Sans Bold', sans-serif;
+  line-height: 35px;
+  margin-bottom: 45px;
+}
+
+/* line 32, C:/Users/Samoy/Desktop/practice123/sass/_feedback.sass */
+.form__subtitle {
+  display: block;
+  margin-bottom: 50px;
+}
+
+/* line 35, C:/Users/Samoy/Desktop/practice123/sass/_feedback.sass */
+.form__input {
+  width: 270px;
+  margin-bottom: 30px;
+}
+
+/* line 38, C:/Users/Samoy/Desktop/practice123/sass/_feedback.sass */
+.form__input:first-child {
+  margin-right: 30px;
+}
+
+/* line 40, C:/Users/Samoy/Desktop/practice123/sass/_feedback.sass */
+.form__button {
+  padding: 28px;
+  display: block;
+  width: 100%;
+  font-size: 16px;
+}
+
+/* line 45, C:/Users/Samoy/Desktop/practice123/sass/_feedback.sass */
+.form__footer {
+  display: flex;
+}
+
+/* line 47, C:/Users/Samoy/Desktop/practice123/sass/_feedback.sass */
+.form__contact {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #333333;
+  font-family: 'Museo Sans Light';
+  margin-top: 27px;
+}
+
+/* line 55, C:/Users/Samoy/Desktop/practice123/sass/_feedback.sass */
+.form__call {
+  margin-left: 140px;
+  width: 191px;
+  margin-top: 10px;
+  color: #333333;
+  font-family: 'Museo Sans Light';
+  font-size: 15px;
+}
+
+/* line 62, C:/Users/Samoy/Desktop/practice123/sass/_feedback.sass */
+.form__call::before {
+  display: block;
+  content: url(../img/feedback/phone.png);
+  margin-left: -60px;
+  margin-top: 22px;
+  margin-bottom: -46px;
+}
+
+/* line 69, C:/Users/Samoy/Desktop/practice123/sass/_feedback.sass */
+.form__number {
+  padding-top: 10px;
+  font-family: 'Museo Sans Bold', sans-serif;
+}
+
+/* line 1, C:/Users/Samoy/Desktop/practice123/sass/_portfolio.sass */
+.portfolio {
+  padding: 100px 0;
+  background: url(../img/portfolio/portfolio-bg.png) no-repeat left;
+  background-color: #f5f5f5;
+}
+
+/* line 8, C:/Users/Samoy/Desktop/practice123/sass/_portfolio.sass */
+.slider__item {
+  text-align: center;
+}
+
+/* line 10, C:/Users/Samoy/Desktop/practice123/sass/_portfolio.sass */
+.slider__item img {
+  margin: auto;
+}
+
+/* line 12, C:/Users/Samoy/Desktop/practice123/sass/_portfolio.sass */
+.section-title {
+  margin-bottom: 99px;
+}
+
+/* line 14, C:/Users/Samoy/Desktop/practice123/sass/_portfolio.sass */
+.arrow {
+  width: 45px;
+  height: 19px;
+  position: absolute;
+}
+
+/* line 19, C:/Users/Samoy/Desktop/practice123/sass/_portfolio.sass */
+.arrow:hover {
+  cursor: pointer;
+}
+
+/* line 21, C:/Users/Samoy/Desktop/practice123/sass/_portfolio.sass */
+.arrow_right {
+  margin-left: -515px;
+  top: 670%;
+  transform: translateX(-45px);
+  background: url(../img/portfolio/arrow-right.png) no-repeat center;
+  background-size: 100%;
+}
+
+/* line 27, C:/Users/Samoy/Desktop/practice123/sass/_portfolio.sass */
+.arrow_left {
+  margin-left: 515px;
+  left: 50%;
+  top: 670%;
+  transform: translateX(-45px);
+  background: url(../img/portfolio/arrow-left.png) no-repeat center;
+  background-size: 100%;
+}
+
+/* line 35, C:/Users/Samoy/Desktop/practice123/sass/_portfolio.sass */
+.bx-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 1, C:/Users/Samoy/Desktop/practice123/sass/_modal.sass */
+.modal {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.52);
+  left: 0;
+  top: 0;
+  z-index: 99;
+  display: none;
+}
+
+/* line 10, C:/Users/Samoy/Desktop/practice123/sass/_modal.sass */
+.modal_visible {
+  display: flex;
+}
+
+/* line 12, C:/Users/Samoy/Desktop/practice123/sass/_modal.sass */
+.modal__dialog {
+  width: 1170px;
+  height: 674px;
+  background-color: #fff;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+/* line 21, C:/Users/Samoy/Desktop/practice123/sass/_modal.sass */
+.modal__close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+/* line 25, C:/Users/Samoy/Desktop/practice123/sass/_modal.sass */
+.modal__close:hover {
+  cursor: pointer;
+}
+
+/* line 27, C:/Users/Samoy/Desktop/practice123/sass/_modal.sass */
+.modal__main {
+  display: grid;
+  grid-template-columns: 600px 570px;
+  grid-template-rows: 674px;
+}
+
+/* line 31, C:/Users/Samoy/Desktop/practice123/sass/_modal.sass */
+.main__left {
+  margin-top: 80px;
+  margin-left: 79px;
+}
+
+/* line 34, C:/Users/Samoy/Desktop/practice123/sass/_modal.sass */
+.main__left-text {
+  width: 164px;
+  height: 78px;
+  margin-top: -92px;
+  margin-left: 145px;
+  line-height: 22px;
+}
+
+/* line 40, C:/Users/Samoy/Desktop/practice123/sass/_modal.sass */
+.title {
+  color: #000000;
+  font-family: 'Museo Sans Medium';
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* line 45, C:/Users/Samoy/Desktop/practice123/sass/_modal.sass */
+.price {
+  font-family: 'Museo Sans Bold', sans-serif;
+}
+
+/* line 47, C:/Users/Samoy/Desktop/practice123/sass/_modal.sass */
+hr {
+  width: 42px;
+  height: 2px;
+  background-color: #ffd200;
+  border: none;
+  margin-left: 0;
+}
+
+/* line 53, C:/Users/Samoy/Desktop/practice123/sass/_modal.sass */
+.main__left-etc {
+  margin-bottom: 25px;
+}
+
+/* line 55, C:/Users/Samoy/Desktop/practice123/sass/_modal.sass */
+.main__left-3 {
+  margin-bottom: 53px;
+}
+
+/* line 57, C:/Users/Samoy/Desktop/practice123/sass/_modal.sass */
+.foot {
+  font-family: 'Museo Sans Bold', sans-serif;
+  margin-bottom: 28px;
+}
+
+/* line 60, C:/Users/Samoy/Desktop/practice123/sass/_modal.sass */
+ul {
+  list-style-image: url(../img/modal/li-img.png);
+  margin-left: -27px;
+  line-height: 25px;
+}
+
+/* line 65, C:/Users/Samoy/Desktop/practice123/sass/_modal.sass */
+.modal__right-poz {
+  margin-top: 80px;
+  margin-left: 136px;
+}
+
+/* line 68, C:/Users/Samoy/Desktop/practice123/sass/_modal.sass */
+.modal__right-title {
+  font-family: 'Museo Sans Bold', sans-serif;
+  color: #333333;
+  font-size: 22px;
+  font-weight: 400;
+  text-align: center;
+  margin-right: 90px;
+  margin-bottom: 52px;
+}
+
+/* line 76, C:/Users/Samoy/Desktop/practice123/sass/_modal.sass */
+.modal__right-subtitle {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  margin-left: 10px;
+}
+
+/* line 81, C:/Users/Samoy/Desktop/practice123/sass/_modal.sass */
+.modal__right__input-1 {
+  width: 370px;
+  height: 65px;
+  border-radius: 10px;
+  border: 1px solid #dddddd;
+  background-color: #ffffff;
+  margin-top: 53px;
+  margin-left: -9px;
+}
+
+/* line 89, C:/Users/Samoy/Desktop/practice123/sass/_modal.sass */
+.modal__right__input-2 {
+  width: 370px;
+  height: 65px;
+  border-radius: 10px;
+  border: 1px solid #dddddd;
+  background-color: #ffffff;
+  margin-top: 15px;
+  margin-left: -9px;
+}
+
+/* line 97, C:/Users/Samoy/Desktop/practice123/sass/_modal.sass */
+.modal__right__button {
+  padding: 28px;
+  display: block;
+  width: 370px;
+  font-size: 16px;
+  margin-top: 30px;
+  margin-bottom: 33px;
+  margin-left: -9px;
+}
+
+/* line 105, C:/Users/Samoy/Desktop/practice123/sass/_modal.sass */
+.modal__right-contact {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 13px;
+}
+
+/* line 110, C:/Users/Samoy/Desktop/practice123/sass/_modal.sass */
+.modal__right-call {
+  font-size: 24px;
+  text-align: center;
+}
+
+/* line 113, C:/Users/Samoy/Desktop/practice123/sass/_modal.sass */
+.modal__right-footer {
+  margin-left: -80px;
+}
+
+/* line 15, C:/Users/Samoy/Desktop/practice123/sass/style.sass */
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+/* line 17, C:/Users/Samoy/Desktop/practice123/sass/style.sass */
+body {
+  font-family: 'Museo Sans Light', sans-serif;
+  color: #333333;
+}
+
+/* line 21, C:/Users/Samoy/Desktop/practice123/sass/style.sass */
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+/* line 26, C:/Users/Samoy/Desktop/practice123/sass/style.sass */
+img {
+  max-width: 100%;
+}
+
+/* line 30, C:/Users/Samoy/Desktop/practice123/sass/style.sass */
+.section-title {
+  font-family: 'Museo Sans Bold', sans-serif;
+  line-height: 45px;
+}
+
+/* line 33, C:/Users/Samoy/Desktop/practice123/sass/style.sass */
+.section-title_center {
+  text-align: center;
+}
+
+@media (max-width: 1920px) {
+  /* line 2, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .main-image {
+    transform-origin: top left;
+    transform: scale(1.3);
+    z-index: 2;
+    box-shadow: 10px 5px 50px rgba(0, 0, 0, 0.1);
+  }
+}
+
+@media (max-width: 1600px) {
+  /* line 9, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .main-image {
+    transform-origin: top left;
+    transform: scale(1);
+    z-index: 2;
+    box-shadow: 10px 5px 50px rgba(0, 0, 0, 0.1);
+  }
+}
+
+@media (max-width: 1199px) {
+  /* line 15, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .container {
+    width: 970px;
+  }
+  /* line 17, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .main-image {
+    height: 100%;
+  }
+  /* line 19, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__dialog {
+    width: 970px;
+  }
+  /* line 21, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .main__left-etc {
+    margin-left: 75px;
+  }
+  /* line 23, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .main__left-3 {
+    margin-left: 75px;
+  }
+  /* line 25, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .main__left-foot {
+    margin-left: 75px;
+  }
+  /* line 27, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__right-poz {
+    margin-left: 70px;
+  }
+  /* line 29, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__right-title {
+    margin-right: 155px;
+  }
+  /* line 31, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__right-footer {
+    margin-left: -145px;
+  }
+  /* line 35, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .slider__item img {
+    max-width: 95%;
+  }
+}
+
+@media (max-width: 992px) {
+  /* line 39, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .container {
+    width: 767px;
+  }
+  /* line 43, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .main-text__title {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  /* line 46, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .main-image {
+    height: 100%;
+  }
+  /* line 48, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .feedback {
+    background-color: #fff;
+  }
+  /* line 50, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__dialog {
+    width: 740px;
+  }
+  /* line 52, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .main__left-etc {
+    margin-left: 150px;
+  }
+  /* line 54, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .main__left-3 {
+    margin-left: 150px;
+  }
+  /* line 56, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .main__left-foot {
+    margin-left: 150px;
+  }
+  /* line 58, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__right-poz {
+    margin-left: 70px;
+  }
+  /* line 60, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__right-title {
+    margin-right: 243px;
+  }
+  /* line 62, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__right-subtitle {
+    font-size: 13px;
+    margin-left: -7px;
+  }
+  /* line 65, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__right-footer {
+    margin-right: 90px;
+  }
+  /* line 67, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__right__input-1 {
+    width: 275px;
+  }
+  /* line 69, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__right__input-2 {
+    width: 275px;
+  }
+  /* line 71, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__right__button {
+    width: 275px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* line 75, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .container {
+    width: 95%;
+  }
+  /* line 78, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .main-wrap {
+    flex-direction: column;
+  }
+  /* line 80, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .main-text {
+    max-width: 400px;
+    margin: auto;
+  }
+  /* line 83, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .main-text__title {
+    text-align: center;
+  }
+  /* line 85, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .form {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 88, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .form__button {
+    width: 50%;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 93, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__dialog {
+    width: 546px;
+    height: 730px;
+  }
+  /* line 96, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .main__left-etc {
+    margin-left: 245px;
+  }
+  /* line 98, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .main__left-3 {
+    margin-left: 245px;
+  }
+  /* line 100, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .main__left-foot {
+    margin-left: 245px;
+  }
+  /* line 102, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__right-poz {
+    margin-left: 70px;
+  }
+  /* line 104, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__right-title {
+    margin-right: 329px;
+  }
+  /* line 106, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__right-subtitle {
+    font-size: 9px;
+    margin-left: -10px;
+  }
+  /* line 109, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__right-footer {
+    margin-right: 185px;
+  }
+  /* line 111, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__right__input-1 {
+    width: 190px;
+    height: 50px;
+  }
+  /* line 114, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__right__input-2 {
+    width: 190px;
+    height: 50px;
+  }
+  /* line 117, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__right__button {
+    width: 190px;
+    height: 50px;
+    padding: 5px;
+  }
+  /* line 121, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__right-contact {
+    font-size: 11px;
+  }
+  /* line 123, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__right-call {
+    font-size: 17px;
+  }
+  /* line 125, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  ul {
+    line-height: 22px;
+  }
+}
+
+@media (max-width: 605px) {
+  /* line 129, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .container {
+    width: 95%;
+  }
+  /* line 132, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .main-wrap {
+    flex-direction: column;
+  }
+  /* line 134, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .main-text {
+    max-width: 400px;
+    margin: auto;
+  }
+  /* line 137, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .main-text__title {
+    text-align: center;
+  }
+  /* line 139, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .form {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 142, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .form__button {
+    width: 270px;
+    font-size: 16px;
+    margin-left: 26%;
+  }
+  /* line 146, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  input {
+    margin-left: 26%;
+  }
+  /* line 148, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .hidden-xs {
+    display: none;
+  }
+  /* line 150, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .header-text__phone {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  /* line 154, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__dialog {
+    width: 310px;
+    height: 770px;
+  }
+  /* line 157, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .main__left-img {
+    display: none;
+  }
+  /* line 159, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .main__left-1 {
+    margin-left: 212px;
+  }
+  /* line 161, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .main__left-2 {
+    margin-left: 364px;
+    margin-bottom: 98px;
+  }
+  /* line 164, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .main__left-3 {
+    margin-left: 212px;
+  }
+  /* line 166, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .main__left-text {
+    width: 171px;
+    height: 78px;
+    margin-top: -105px;
+    margin-left: 142px;
+    line-height: 15px;
+  }
+  /* line 172, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .main__left-foot {
+    margin-left: 354px;
+  }
+  /* line 174, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__right-poz {
+    margin-left: 70px;
+  }
+  /* line 176, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__right-title {
+    margin-left: -195px;
+    font-family: 'Museo Sans Light';
+    font-size: 15px;
+    margin-top: -27px;
+  }
+  /* line 181, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__right-subtitle {
+    font-size: 9px;
+    margin-left: -10px;
+  }
+  /* line 184, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__right-footer {
+    margin-left: -493px;
+  }
+  /* line 186, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__right__input-1 {
+    width: 144px;
+    height: 38px;
+    margin-left: -79px;
+    margin-top: -19px;
+  }
+  /* line 191, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__right__input-2 {
+    width: 145px;
+    height: 50px;
+    margin-left: -79px;
+    margin-bottom: 0px;
+  }
+  /* line 196, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__right__button {
+    width: 167px;
+    height: 23px;
+    padding: 0px;
+    margin-top: 394px;
+    margin-left: -170px;
+  }
+  /* line 202, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__right-contact {
+    font-size: 11px;
+  }
+  /* line 204, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__right-call {
+    font-size: 17px;
+  }
+  /* line 206, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  ul {
+    line-height: 22px;
+  }
+  /* line 208, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .price {
+    font-family: 'Museo Sans Light';
+    font-size: 12px;
+  }
+  /* line 211, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .title {
+    font-family: 'Museo Sans Light';
+  }
+  /* line 213, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .hidden {
+    display: none;
+  }
+}
+
+@media (max-width: 522px) {
+  /* line 219, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .header-text__phone {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 505px) {
+  /* line 223, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .header-text__phone {
+    font-size: 11px;
+  }
+  /* line 225, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .button {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 465px) {
+  /* line 228, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .header-text__phone {
+    font-size: 15px;
+  }
+  /* line 230, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .button {
+    display: none;
+  }
+  /* line 233, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .header-text__contacts::before {
+    content: url(../img/feedback/phone.png);
+  }
+  /* line 235, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__dialog {
+    width: 310px;
+    height: 770px;
+  }
+  /* line 238, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .main__left-img {
+    display: none;
+  }
+  /* line 240, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .main__left-1 {
+    margin-left: 212px;
+  }
+  /* line 242, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .main__left-2 {
+    margin-left: 364px;
+    margin-bottom: 98px;
+  }
+  /* line 245, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .main__left-3 {
+    margin-left: 212px;
+  }
+  /* line 247, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .main__left-text {
+    width: 171px;
+    height: 78px;
+    margin-top: -105px;
+    margin-left: 142px;
+    line-height: 15px;
+  }
+  /* line 253, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .main__left-foot {
+    margin-left: 354px;
+  }
+  /* line 255, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__right-poz {
+    margin-left: 70px;
+  }
+  /* line 257, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__right-title {
+    margin-left: -195px;
+    font-family: 'Museo Sans Light';
+    font-size: 15px;
+    margin-top: -27px;
+  }
+  /* line 262, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__right-subtitle {
+    font-size: 9px;
+    margin-left: -10px;
+  }
+  /* line 265, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__right-footer {
+    margin-left: -490px;
+    margin-top: 400px;
+  }
+  /* line 268, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__right__input-1 {
+    width: 144px;
+    height: 38px;
+    margin-left: -79px;
+    margin-top: -19px;
+  }
+  /* line 273, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__right__input-2 {
+    width: 145px;
+    height: 50px;
+    margin-left: -79px;
+    margin-bottom: 0px;
+  }
+  /* line 278, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__right__button {
+    width: 167px;
+    height: 23px;
+    padding: 0px;
+    margin-top: 394px;
+    margin-left: -170px;
+  }
+  /* line 284, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__right-contact {
+    font-size: 11px;
+  }
+  /* line 286, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__right-call {
+    font-size: 17px;
+  }
+  /* line 288, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  ul {
+    line-height: 22px;
+  }
+  /* line 290, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .price {
+    font-family: 'Museo Sans Light';
+    font-size: 12px;
+  }
+  /* line 293, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .title {
+    font-family: 'Museo Sans Light';
+  }
+  /* line 295, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .hidden {
+    display: none;
+  }
+}
+
+@media (max-width: 432px) {
+  /* line 300, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .form {
+    text-align: center;
+  }
+  /* line 302, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .input-tel {
+    margin-top: 35px;
+    margin-left: 0;
+  }
+  /* line 309, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .form__input:first-child {
+    margin: 0;
+  }
+  /* line 311, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .form__call::before {
+    margin-left: -190px;
+    height: 46px;
+  }
+  /* line 315, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .main__left-img {
+    display: none;
+  }
+  /* line 317, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .main__left-1 {
+    margin-left: 212px;
+  }
+  /* line 319, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .main__left-2 {
+    margin-left: 364px;
+    margin-bottom: 98px;
+  }
+  /* line 322, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .main__left-3 {
+    margin-left: 212px;
+  }
+  /* line 324, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .main__left-text {
+    width: 171px;
+    height: 78px;
+    margin-top: -105px;
+    margin-left: 142px;
+    line-height: 15px;
+  }
+  /* line 330, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .main__left-foot {
+    margin-left: 354px;
+  }
+  /* line 332, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__right-poz {
+    margin-left: 70px;
+  }
+  /* line 334, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__right-title {
+    margin-left: -195px;
+    font-family: 'Museo Sans Light';
+    font-size: 15px;
+    margin-top: -27px;
+  }
+  /* line 339, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__right-subtitle {
+    font-size: 9px;
+    margin-left: -10px;
+  }
+  /* line 342, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__right-footer {
+    margin-left: -493px;
+  }
+  /* line 344, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__right__input-1 {
+    width: 144px;
+    height: 38px;
+    margin-left: -79px;
+    margin-top: -19px;
+  }
+  /* line 349, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__right__input-2 {
+    width: 145px;
+    height: 50px;
+    margin-left: -79px;
+    margin-bottom: 0px;
+  }
+  /* line 354, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__right__button {
+    width: 167px;
+    height: 23px;
+    padding: 0px;
+    margin-top: 394px;
+    margin-left: -170px;
+  }
+  /* line 360, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__right-contact {
+    font-size: 11px;
+  }
+  /* line 362, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__right-call {
+    font-size: 17px;
+  }
+  /* line 364, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  ul {
+    line-height: 22px;
+  }
+  /* line 366, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .price {
+    font-family: 'Museo Sans Light';
+    font-size: 12px;
+  }
+  /* line 369, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .title {
+    font-family: 'Museo Sans Light';
+  }
+  /* line 371, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .hidden {
+    display: none;
+  }
+}
+
+@media (max-width: 425px) {
+  /* line 382, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .main-text__title {
+    text-align: center;
+  }
+  /* line 384, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .main-advantages {
+    margin-left: 30px;
+  }
+  /* line 386, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .header-text__button {
+    display: none;
+  }
+  /* line 389, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .header-text__contacts::before {
+    content: url(../img/feedback/phone.png);
+  }
+  /* line 391, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .form__contact {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 394, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .form__call {
+    margin-left: 140px;
+  }
+  /* line 396, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .form__call::before {
+    margin-left: -255px;
+  }
+  /* line 398, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .header-text__phone {
+    font-size: 15px;
+  }
+  /* line 400, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .form {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 403, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .form__title {
+    text-align: center;
+    margin-left: 0px;
+  }
+  /* line 406, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .form__subtitle {
+    text-align: center;
+    margin-left: 0px;
+  }
+  /* line 409, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .form__footer {
+    flex-direction: column;
+  }
+  /* line 414, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .form__contact {
+    margin-left: 95px;
+  }
+  /* line 416, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .form__button {
+    width: 270px;
+    margin-left: 17%;
+  }
+  /* line 419, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .hidden-xs {
+    display: none;
+  }
+  /* line 421, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  input {
+    margin-left: 17%;
+  }
+  /* line 428, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__dialog {
+    width: 310px;
+    height: 770px;
+  }
+  /* line 431, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .main__left-img {
+    display: none;
+  }
+  /* line 433, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .main__left-1 {
+    margin-left: 212px;
+  }
+  /* line 435, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .main__left-2 {
+    margin-left: 364px;
+    margin-bottom: 98px;
+  }
+  /* line 438, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .main__left-3 {
+    margin-left: 212px;
+  }
+  /* line 440, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .main__left-text {
+    width: 171px;
+    height: 78px;
+    margin-top: -105px;
+    margin-left: 142px;
+    line-height: 15px;
+  }
+  /* line 446, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .main__left-foot {
+    margin-left: 354px;
+  }
+  /* line 448, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__right-poz {
+    margin-left: 70px;
+  }
+  /* line 450, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__right-title {
+    margin-left: -195px;
+    font-family: 'Museo Sans Light';
+    font-size: 15px;
+    margin-top: -27px;
+  }
+  /* line 455, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__right-subtitle {
+    font-size: 9px;
+    margin-left: -10px;
+  }
+  /* line 458, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__right-footer {
+    margin-left: -493px;
+  }
+  /* line 460, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__right__input-1 {
+    width: 144px;
+    height: 38px;
+    margin-left: -79px;
+    margin-top: -19px;
+  }
+  /* line 465, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__right__input-2 {
+    width: 145px;
+    height: 50px;
+    margin-left: -79px;
+    margin-bottom: 0px;
+  }
+  /* line 470, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__right__button {
+    width: 167px;
+    height: 23px;
+    padding: 0px;
+    margin-top: 394px;
+    margin-left: -170px;
+  }
+  /* line 476, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__right-contact {
+    font-size: 11px;
+  }
+  /* line 478, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__right-call {
+    font-size: 17px;
+  }
+  /* line 480, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  ul {
+    line-height: 22px;
+  }
+  /* line 482, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .price {
+    font-family: 'Museo Sans Light';
+    font-size: 12px;
+  }
+  /* line 485, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .title {
+    font-family: 'Museo Sans Light';
+  }
+  /* line 487, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .hidden {
+    display: none;
+  }
+}
+
+@media (max-width: 375px) {
+  /* line 491, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .main-text__title {
+    text-align: center;
+    margin-left: 10px;
+  }
+  /* line 494, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .main-advantages {
+    margin-left: 13px;
+  }
+  /* line 496, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .form__contact {
+    margin-left: 65px;
+  }
+  /* line 498, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .form__call {
+    margin-left: 108px;
+  }
+  /* line 500, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .form__subtitle {
+    text-align: center;
+    margin-left: 0px;
+  }
+  /* line 503, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .form__title {
+    text-align: center;
+    margin-left: 0px;
+  }
+  /* line 506, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .form__button {
+    width: 270px;
+    margin-left: 13%;
+  }
+  /* line 509, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  input {
+    margin-left: 13%;
+  }
+  /* line 511, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .hidden-xs {
+    display: none;
+  }
+}
+
+@media (max-width: 320px) {
+  /* line 514, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .form__button {
+    margin-left: 17px;
+  }
+  /* line 516, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .form__contact {
+    margin-left: 45px;
+  }
+  /* line 518, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .form__call {
+    margin-left: 90px;
+  }
+  /* line 520, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .form__subtitle {
+    text-align: center;
+    margin-left: 5px;
+  }
+  /* line 523, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .form__title {
+    text-align: center;
+    margin-left: 10px;
+  }
+  /* line 526, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  input {
+    margin-left: 17px;
+  }
+  /* line 528, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .form__input:first-child {
+    margin-right: 0px;
+  }
+  /* line 530, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__dialog {
+    width: 310px;
+    height: 770px;
+  }
+  /* line 533, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .main__left-img {
+    display: none;
+  }
+  /* line 535, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .main__left-1 {
+    margin-left: 212px;
+  }
+  /* line 537, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .main__left-2 {
+    margin-left: 364px;
+    margin-bottom: 98px;
+  }
+  /* line 540, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .main__left-3 {
+    margin-left: 212px;
+  }
+  /* line 542, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .main__left-text {
+    width: 171px;
+    height: 78px;
+    margin-top: -105px;
+    margin-left: 142px;
+    line-height: 15px;
+  }
+  /* line 548, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .main__left-foot {
+    margin-left: 354px;
+  }
+  /* line 550, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__right-poz {
+    margin-left: 70px;
+  }
+  /* line 552, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__right-title {
+    margin-left: -195px;
+    font-family: 'Museo Sans Light';
+    font-size: 15px;
+    margin-top: -27px;
+  }
+  /* line 557, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__right-subtitle {
+    font-size: 9px;
+    margin-left: -10px;
+  }
+  /* line 560, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__right-footer {
+    margin-left: -493px;
+  }
+  /* line 562, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__right__input-1 {
+    width: 144px;
+    height: 38px;
+    margin-left: -79px;
+    margin-top: -19px;
+  }
+  /* line 567, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__right__input-2 {
+    width: 145px;
+    height: 50px;
+    margin-left: -79px;
+    margin-bottom: 0px;
+  }
+  /* line 572, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__right__button {
+    width: 167px;
+    height: 23px;
+    padding: 0px;
+    margin-top: 394px;
+    margin-left: -170px;
+  }
+  /* line 578, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__right-contact {
+    font-size: 11px;
+  }
+  /* line 580, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .modal__right-call {
+    font-size: 17px;
+  }
+  /* line 582, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  ul {
+    line-height: 22px;
+  }
+  /* line 584, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .price {
+    font-family: 'Museo Sans Light';
+    font-size: 12px;
+  }
+  /* line 587, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .title {
+    font-family: 'Museo Sans Light';
+  }
+  /* line 589, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
+  .hidden {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=../css/style.map */
