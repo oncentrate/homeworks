@@ -1,6 +1,3 @@
-
-$(document).ready(function({
-    
 $(function() {      
   var slider = $('.slider'),
     sliderContent = slider.html(),                      // Содержимое слайдера
@@ -58,6 +55,4 @@ $(function() {
   }, nextSlide);                                        // Когда курсор уходит со слайдера, анимация возобновляется.
  
   nextSlide();                                          // Вызов функции nextSlide()
-});
-
 });
