@@ -1,0 +1,17 @@
+.casino{
+	margin-left: 625px;
+	/*width: 900px !important;*/
+}
+
+body{
+	background-color: #2f2f2f !important;
+}
+
+.title{
+		margin-left: 125px;
+    font-family: Arial;
+    font-size: 24px;
+    color: #06cf13;
+    margin-top: 25px;
+
+}
