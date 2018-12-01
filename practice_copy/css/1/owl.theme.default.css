@@ -68,14 +68,5 @@
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
   background: #869791;
 }
-/*
-.owl-prev{
-          background: url(../img/portfolio/arrow-left.png) no-repeat center
-          background-size: 100%
-        }
-        .owl-next{
-          background: url(../img/portfolio/arrow-right.png) no-repeat center
-          background-size: 100%
-        }*/
 
 /*# sourceMappingURL=../1/owl.theme.default.map */

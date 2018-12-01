@@ -672,24 +672,6 @@ template {
   cursor: pointer;
 }
 
-/* line 21, C:/Users/Samoy/Desktop/practice123/sass/_portfolio.sass */
-.arrow_right {
-  margin-left: -515px;
-  top: 670%;
-  transform: translateX(-45px);
-  background: url(../img/portfolio/arrow-right.png) no-repeat center;
-  background-size: 100%;
-}
-
-/* line 27, C:/Users/Samoy/Desktop/practice123/sass/_portfolio.sass */
-.arrow_left {
-  margin-left: 515px;
-  left: 50%;
-  top: 670%;
-  transform: translateX(-45px);
-  background: url(../img/portfolio/arrow-left.png) no-repeat center;
-  background-size: 100%;
-}
 
 /* line 35, C:/Users/Samoy/Desktop/practice123/sass/_portfolio.sass */
 .bx-wrapper {
@@ -697,6 +679,14 @@ template {
   margin-right: auto;
 }
 
+.buttons{
+  margin-left: 915px;
+  margin-top: 26px;
+
+}
+.next-btn{
+  margin-left: 25px;
+}
 /* line 1, C:/Users/Samoy/Desktop/practice123/sass/_modal.sass */
 .modal {
   position: fixed;
@@ -914,7 +904,11 @@ img {
 .section-title_center {
   text-align: center;
 }
-
+@media (max-width: 2560px) {
+  .buttons{
+    margin-left: 1230px;
+  }
+}
 @media (max-width: 1920px) {
   /* line 2, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
   .main-image {
@@ -922,6 +916,29 @@ img {
     transform: scale(1.3);
     z-index: 2;
     box-shadow: 10px 5px 50px rgba(0, 0, 0, 0.1);
+  }
+  .buttons{
+  margin-left: 915px;
+  margin-top: 26px;
+
+  }
+  .next-btn{
+  margin-left: 25px;
+  }
+}
+@media (max-width: 1900px) {
+  .buttons{
+    margin-left: 900px;
+  }
+}
+@media (max-width: 1800px) {
+  .buttons{
+    margin-left: 850px;
+  }
+}
+@media (max-width: 1700px) {
+  .buttons{
+    margin-left: 800px;
   }
 }
 
@@ -933,8 +950,33 @@ img {
     z-index: 2;
     box-shadow: 10px 5px 50px rgba(0, 0, 0, 0.1);
   }
+   .buttons{
+    margin-left: 750px;
+  }
+
 }
 
+@media (max-width: 1500px) {
+  .buttons{
+    margin-left: 700px;
+  }
+}
+@media (max-width: 1400px) {
+  .buttons{
+    margin-left: 650px;
+  }
+}
+@media (max-width: 1440px) {
+  .buttons{
+   margin-left: 660px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .buttons{
+    margin-left: 600px;
+  }
+}
 @media (max-width: 1199px) {
   /* line 15, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
   .container {
@@ -976,8 +1018,33 @@ img {
   .slider__item img {
     max-width: 95%;
   }
+
+  .buttons{
+    margin-left: 600px;
+  }
+
+}
+@media (max-width: 1200px) {
+  .buttons{
+    margin-left: 550px;
+  }
 }
 
+@media (max-width: 1100px) {
+  .buttons{
+    margin-left: 500px;
+  }
+}
+@media (max-width: 1024px) {
+  .buttons{
+    margin-left: 455px;
+  }
+}
+@media (max-width: 1000px) {
+  .buttons{
+    margin-left: 450px;
+  }
+}
 @media (max-width: 992px) {
   /* line 39, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
   .container {
@@ -1040,6 +1107,15 @@ img {
   /* line 71, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
   .modal__right__button {
     width: 275px;
+  }
+}@media (max-width: 900px) {
+  .buttons{
+    margin-left: 400px;
+  }
+}
+@media (max-width: 800px) {
+  .buttons{
+    margin-left: 350px;
   }
 }
 
@@ -1135,8 +1211,15 @@ img {
   ul {
     line-height: 22px;
   }
+  .buttons {
+    margin-left: 325px;
 }
-
+}
+@media (max-width: 700px) {
+  .buttons{
+    margin-left: 300px;
+  }
+}
 @media (max-width: 605px) {
   /* line 129, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
   .container {
@@ -1177,6 +1260,10 @@ img {
   /* line 150, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
   .header-text__phone {
     font-size: 15px;
+  }
+
+  .buttons{
+    margin-left: 245px;
   }
 }
 
@@ -1300,6 +1387,11 @@ img {
   .button {
     font-size: 9px;
   }
+
+  .buttons{
+    margin-left: 190px;
+  }
+
 }
 
 @media (max-width: 465px) {
@@ -1707,8 +1799,15 @@ img {
   .hidden {
     display: none;
   }
+  .buttons {
+    margin-left: 155px;
 }
-
+}
+@media (max-width: 400px) {
+  .buttons{
+    margin-left: 140px;
+  }
+}
 @media (max-width: 375px) {
   /* line 491, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
   .main-text__title {
@@ -1749,7 +1848,11 @@ img {
   /* line 511, C:/Users/Samoy/Desktop/practice123/sass/_media.sass */
   .hidden-xs {
     display: none;
+
   }
+  .buttons {
+    margin-left: 130px;
+}
 }
 
 @media (max-width: 320px) {
@@ -1884,6 +1987,13 @@ img {
   .hidden {
     display: none;
   }
+  .buttons {
+    margin-left: 100px;
 }
-
+}
+@media (max-width: 300px) {
+  .buttons{
+    margin-left: 90px;
+  }
+}
 /*# sourceMappingURL=../css/style.map */

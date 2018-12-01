@@ -100,7 +100,8 @@
 				Работая с 2007 года, <br> мы сделали более 500 ремонтов в &nbsp;квартирах&nbsp;и&nbsp;домах
 			</h2>
 		</div>
-		<div class="owl-carousel owl-theme">
+		<div class="owl-carousel owl-theme owl-next">
+
 			<div class="slider__item">
 				<img src="img/portfolio/slider-image-1.png " alt="" style="width:370px">
 			</div>
@@ -124,9 +125,12 @@
 			<div class="slider__item">
 				<img src="img/portfolio/slider-image-3.png" alt="" style="width:370px">
 			</div>
-			
 
 		</div>
+		<div class="buttons">
+		<img src="css/1/portfolio/arrow-left.png" alt="" class="prev-btn">
+    <img src="css/1/portfolio/arrow-right.png" alt="" class="next-btn" >
+	  </div>
 	
 	</section>
 
@@ -191,12 +195,12 @@
  <script src="jquery-3.3.1.min.js"></script>
  <script src="js/owl.carousel.js"></script>
  <script>
-$('.owl-carousel').owlCarousel({
+$(document).ready(function(){
+	$('.owl-carousel').owlCarousel({
     loop:true,
     margin:20,
-    nav: true,
-    dots: true,
-    loop: true,
+    nav:true,
+    loop:true,
     responsiveClass:true,
     responsive:{
         0:{
@@ -209,7 +213,24 @@ $('.owl-carousel').owlCarousel({
             items:3,
         }
     }
+	});
+	var owl = $('.owl-carousel');
+owl.owlCarousel();
+// Go to the next item
+$('.next-btn').click(function() {
+    owl.trigger('next.owl.carousel');
 })
+// Go to the previous item
+$('.prev-btn').click(function() {
+    // With optional speed parameter
+    // Parameters has to be in square bracket '[]'
+    owl.trigger('prev.owl.carousel');
+})
+});
+
+
+
+
 </script>
 
 
