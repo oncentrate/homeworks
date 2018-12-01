@@ -55,6 +55,7 @@
 		 * Currently suppressed events to prevent them from being retriggered.
 		 * @protected
 		 */
+		
 		this._supress = {};
 
 		/**
