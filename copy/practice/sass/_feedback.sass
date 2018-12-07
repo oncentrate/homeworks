@@ -1,0 +1,72 @@
+.feedback
+ padding: 94px 0
+ // background-color: #fff
+ // background: url('../img/feedback/feedback-bg.jpg') no-repeat center right 
+ // background-size: contain
+
+
+ background: url('../img/feedback/feedback-bg.jpg') no-repeat center left 700px
+ background-size: contain
+ position: relative
+ z-index: 1
+ &:before
+  content: ''
+  left: 0
+  top: 0
+  width: 60%
+  height: 100%
+  background-color: #fff
+  position: absolute
+  z-index: -1
+ //  background-color: #fff
+ //  background: url('../img/feedback/feedback-bg.jpg') no-repeat center right -1%
+
+
+.form
+ max-width: 575px
+ &__title
+  font-size: 24px
+  +bold
+  line-height: 35px
+  margin-bottom: 45px
+ &__subtitle
+  display: block
+  margin-bottom: 50px
+ &__input
+  width: 270px
+  margin-bottom: 30px
+  &:first-child
+   margin-right: 30px
+ &__button
+  padding: 28px
+  display: block
+  width: 100%
+  font-size: 16px
+ &__footer
+  display: flex
+ &__contact
+  font-size: 15px
+  font-weight: 400
+  line-height: 24px
+  color: $text-color
+  font-family: 'Museo Sans Light'
+  margin-top: 27px
+  
+ &__call
+  margin-left: 140px
+  width: 191px
+  margin-top: 10px
+  color: $text-color
+  font-family: 'Museo Sans Light'
+  font-size: 15px
+  &::before
+    display: block
+    content: url(../img/feedback/phone.png)
+    margin-left: -60px
+    margin-top: 22px
+    margin-bottom: -46px
+   
+ &__number
+  padding-top: 10px
+  +bold
+
